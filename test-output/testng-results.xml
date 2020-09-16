@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74397" started-at="2020-09-16T23:57:31 IST" finished-at="2020-09-16T23:58:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74397" started-at="2020-09-16T23:57:31 IST" finished-at="2020-09-16T23:58:45 IST">
+      <class name="com.eBanking.testcases.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eBanking.testcases.LoginTest@3d99d22e]" name="setup" is-config="true" duration-ms="57022" started-at="2020-09-16T23:57:31 IST" finished-at="2020-09-16T23:58:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintoapp()[pri:0, instance:com.eBanking.testcases.LoginTest@3d99d22e]" name="logintoapp" duration-ms="6656" started-at="2020-09-16T23:58:28 IST" finished-at="2020-09-16T23:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoapp -->
+        <test-method status="PASS" signature="takescreenshots(org.testng.ITestResult)[pri:0, instance:com.eBanking.testcases.LoginTest@3d99d22e]" name="takescreenshots" is-config="true" duration-ms="10420" started-at="2020-09-16T23:58:35 IST" finished-at="2020-09-16T23:58:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintoapp status=SUCCESS method=LoginTest.logintoapp()[pri:0, instance:com.eBanking.testcases.LoginTest@3d99d22e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshots -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eBanking.testcases.LoginTest@3d99d22e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-16T23:58:45 IST" finished-at="2020-09-16T23:58:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eBanking.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
